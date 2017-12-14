@@ -16,7 +16,7 @@ namespace SampleWeb
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            lblSum.Text = "Total is : " + Convert.ToString(Convert.ToInt32(txtValue1.Text) + Convert.ToInt32(txtValue2.Text));
+            lblSum.Text = "Total is : " + Convert.ToString(Convert.ToInt32(txtValue1.Text) + Convert.ToInt32(txtValue2.Text) +5  );
         }
     }
 }
